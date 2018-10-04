@@ -127,12 +127,12 @@ app.pokemonCompare = function () {
     if (app.compare(app.pokemonOneStrengths, app.pokemonTwoTypes).length > 0 && app.compare(app.pokemonOneWeaknesses, app.pokemonTwoTypes).length === 0 ) {
         $(".submit").on("click", function(e){
             e.preventDefault();
-            $(".winnerAnnouncement").append(`<h1>${app.pokemonOne} Wins against ${app.compare(app.pokemonOneStrengths, app.pokemonTwoTypes)}</h1>`);
+            $(".winnerAnnouncement").append(`<h1>${app.pokemonOne} wins against ${app.compare(app.pokemonOneStrengths, app.pokemonTwoTypes)}</h1>`);
         })
     } else if (app.compare(app.pokemonOneStrengths, app.pokemonTwoTypes).length == 0 && app.compare(app.pokemonOneWeaknesses, app.pokemonTwoTypes).length > 0) {
         $(".submit").on("click", function (e) {
             e.preventDefault();
-            $(".winnerAnnouncement").append(`<h1>${app.pokemonTwo} Wins against ${app.compare(app.pokemonOneWeaknesses, app.pokemonTwoTypes)}</h1>`);
+            $(".winnerAnnouncement").append(`<h1>${app.pokemonTwo} wins with ${app.compare(app.pokemonOneWeaknesses, app.pokemonTwoTypes)}</h1>`);
         })
     } else if (app.compare(app.pokemonOneStrengths, app.pokemonTwoTypes).length === 0 && app.compare(app.pokemonOneWeaknesses, app.pokemonTwoTypes).length === 0){
         $(".submit").on("click", function (e) {
