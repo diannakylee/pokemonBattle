@@ -1,10 +1,3 @@
-# Static Boilerplate
+Pokemon Battle Simulator
 
-### Getting started
-
-Clone this repository
-In terminal, run `rm -r .git` to remove any commit history from the current repo
-
-Run `git init` to create a new `.git` folder
-
-Run `npm i` to get started, and run `gulp` to start the server!
+Using the PokeAPI, I created a battle simulator that allows you to choose two pokemons and see who would be the winner. Battle simulation is dependent on Type Advantage (only examining double damage properties) and base stats.
