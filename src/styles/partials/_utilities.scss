@@ -1,0 +1,43 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	background-repeat: repeat;
+	font-family: "Open Sans", sans-serif;
+	// overflow: hidden;
+}
+
+h1, h2, h3, h4, figure, img, button, p, li, ul {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Raleway";
+	text-transform: uppercase;
+}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+nav {
+	text-transform: uppercase;
+	position: fixed;
+	z-index: 99;
+}
+
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+a {
+	padding: 15px;
+	text-decoration: none;
+	cursor: pointer;
+}
+

@@ -1,0 +1,109 @@
+body {
+    background: url("/public/assets/pattern.png");
+}
+
+h1 {
+    color: white;
+}
+
+.wrapper {
+    max-width: 1280px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2%;
+    padding: 15px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.pokemonHolder {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+
+.pokemonImage{
+    margin-top: 15px;
+}
+
+.pokemonBox {
+    width: 45%;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemonNameBox {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.pokemonStats {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left {
+    width: 50%;
+}
+
+.typeBox {
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding-top: 20px;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
+
+figure {
+    height: 150px;
+    width: 150px ;
+}
+
+.typeName {
+    color: red;
+}
+
+.statsBox {
+    width: 50%;
+    height: 200px;
+    border-radius: 15px;
+    padding: 10px;
+    & h4 {
+        margin-bottom: 10px;
+    }
+}
+
+.stats li {
+    font-size: 1.4rem;
+}
+
+.winnerAnnouncement h1 {
+    color: red;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    right: 20%;
+    background: white;
+    padding: 15px;
+    transform: rotate(-10deg);
+}
